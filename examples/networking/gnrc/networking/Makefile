@@ -1,6 +1,9 @@
 # name of your application
 APPLICATION = gnrc_networking
-
+# ETX Configuration for Task 2
+CFLAGS += -DCONFIG_NETSTATS_NB_EWMA_ALPHA=120
+CFLAGS += -DCONFIG_NETSTATS_NB_ETX_NOACK_PENALTY=15
+CFLAGS += -DCONFIG_NETSTATS_NB_ETX_DIVISOR=61
 # If no BOARD is found in the environment, use this default:
 BOARD ?= native
 
@@ -28,6 +31,7 @@ USEMODULE += ps
 USEMODULE += netstats_l2
 USEMODULE += netstats_ipv6
 USEMODULE += netstats_rpl
+USEMODULE += netstats_neighbor
 
 # Optionally include DNS support. This includes resolution of names at an
 # upstream DNS server and the handling of RDNSS options in Router Advertisements
