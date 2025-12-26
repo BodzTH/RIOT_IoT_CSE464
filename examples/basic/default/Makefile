@@ -16,7 +16,7 @@ USEMODULE += shell_cmds_default
 USEMODULE += ps
 USEMODULE += saul_default
 
-# --- NETWORK & RPL (ADD THIS SECTION) ---
+# --- NETWORK & RPL ---
 # 1. Enable the default network device (TAP for native)
 USEMODULE += netdev_default
 USEMODULE += auto_init_gnrc_netif

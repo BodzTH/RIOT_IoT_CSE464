@@ -19,20 +19,16 @@
  */
 
 #include <string.h>
-#include <stdio.h>
 #include "of0.h"
 #include "net/gnrc/rpl.h"
 #include "net/gnrc/rpl/structs.h"
-
-
-/* --- CONFIGURATION FOR TASK GROUP 1 (Member 02) --- */
-#define BATTERY_LOW_PENALTY  (0x0200) // Large rank increase
-#define BATTERY_THRESHOLD_MV (3300)   // Threshold: 3.3V
 
 static uint16_t calc_rank(gnrc_rpl_dodag_t *, uint16_t);
 static int parent_cmp(gnrc_rpl_parent_t *, gnrc_rpl_parent_t *);
 static int which_dodag(gnrc_rpl_dodag_t *, gnrc_rpl_dio_t *);
 static void reset(gnrc_rpl_dodag_t *);
+
+extern volatile bool is_critical;
 
 static gnrc_rpl_of_t gnrc_rpl_of0 = {
     .ocp = 0x0,
@@ -56,42 +52,29 @@ void reset(gnrc_rpl_dodag_t *dodag)
     (void) dodag;
 }
 
-/* * Placeholder to simulate reading battery voltage.
- * For now, we return 3000 (3.0V) to FORCE the code to test the low battery logic.
- */
-static int get_battery_voltage(void) {
-    return 3000;
-}
-
 uint16_t calc_rank(gnrc_rpl_dodag_t *dodag, uint16_t base_rank)
 {
     if (base_rank == 0) {
         if (dodag->parents == NULL) {
             return GNRC_RPL_INFINITE_RANK;
         }
+
         base_rank = dodag->parents->rank;
     }
 
     uint16_t add;
 
-    /* Standard RIOT logic to determine hop cost */
     if (dodag->parents != NULL) {
-        add = dodag->instance->min_hop_rank_inc;
-    }
+        if (is_critical) {
+            add = (uint16_t)(dodag->parents->link_metric * dodag->instance->min_hop_rank_inc);
+        }
+        else {
+            add = dodag->instance->min_hop_rank_inc;
+        }
     else {
         add = CONFIG_GNRC_RPL_DEFAULT_MIN_HOP_RANK_INCREASE;
     }
 
-    /* * TASK GROUP 1 LOGIC INSERTION [cite: 87]
-     * If battery is low, add a penalty so this node is avoided.
-     */
-    if (get_battery_voltage() < BATTERY_THRESHOLD_MV) {
-        /* Using printf so you can see it in the terminal */
-        printf("[TG1-Debug] Low Battery! Adding rank penalty.\n");
-        add += BATTERY_LOW_PENALTY;
-    }
-
-    /* Overflow protection */
     if ((uint16_t)(base_rank + add) < base_rank) {
         return GNRC_RPL_INFINITE_RANK;
     }
