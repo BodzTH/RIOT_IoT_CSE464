@@ -71,6 +71,7 @@ uint16_t calc_rank(gnrc_rpl_dodag_t *dodag, uint16_t base_rank)
         else {
             add = dodag->instance->min_hop_rank_inc;
         }
+    }
     else {
         add = CONFIG_GNRC_RPL_DEFAULT_MIN_HOP_RANK_INCREASE;
     }
