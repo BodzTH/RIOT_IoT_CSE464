@@ -1,143 +1,178 @@
-/home/menaosman/RIOT-master/examples/basic/default/bin/native64/stdio/stdio.o: \
- /home/menaosman/RIOT-master/sys/stdio/stdio.c /usr/include/stdc-predef.h \
- /home/menaosman/RIOT-master/examples/basic/default/bin/native64/riotbuild/riotbuild.h \
- /usr/include/errno.h /usr/include/features.h \
- /usr/include/features-time64.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /home/menaosman/RIOT-master/sys/include/isrpipe.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/menaosman/RIOT-master/core/include/mutex.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/menaosman/RIOT-master/sys/include/architecture.h \
- /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/menaosman/RIOT-master/cpu/native/include/architecture_arch.h \
- /home/menaosman/RIOT-master/core/lib/include/kernel_defines.h \
- /home/menaosman/RIOT-master/core/lib/include/modules.h \
- /home/menaosman/RIOT-master/core/lib/include/riot_version.h \
- /home/menaosman/RIOT-master/core/lib/include/compiler_hints.h \
- /home/menaosman/RIOT-master/core/lib/include/assert.h \
- /home/menaosman/RIOT-master/core/lib/include/container.h \
- /home/menaosman/RIOT-master/core/lib/include/list.h \
- /home/menaosman/RIOT-master/core/include/thread.h \
- /home/menaosman/RIOT-master/core/lib/include/cib.h \
- /home/menaosman/RIOT-master/core/lib/include/clist.h \
- /home/menaosman/RIOT-master/core/include/msg.h \
- /home/menaosman/RIOT-master/core/include/sched.h \
- /home/menaosman/RIOT-master/core/lib/include/thread_config.h \
- /home/menaosman/RIOT-master/cpu/native/include/cpu_conf.h \
- /home/menaosman/RIOT-master/cpu/native/include/sched.h \
- /home/menaosman/RIOT-master/core/include/thread_flags.h \
- /home/menaosman/RIOT-master/cpu/native/include/thread_arch.h \
- /home/menaosman/RIOT-master/sys/include/tsrb.h \
- /home/menaosman/RIOT-master/core/lib/include/irq.h \
- /home/menaosman/RIOT-master/sys/include/stdio_base.h \
- /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /home/menaosman/RIOT-master/core/lib/include/xfa.h \
- /home/menaosman/RIOT-master/core/lib/include/macros/utils.h
-/usr/include/stdc-predef.h:
-/home/menaosman/RIOT-master/examples/basic/default/bin/native64/riotbuild/riotbuild.h:
-/usr/include/errno.h:
-/usr/include/features.h:
-/usr/include/features-time64.h:
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-/usr/include/linux/errno.h:
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-/usr/include/asm-generic/errno.h:
-/usr/include/asm-generic/errno-base.h:
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-/home/menaosman/RIOT-master/sys/include/isrpipe.h:
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-/usr/include/stdint.h:
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-/usr/include/x86_64-linux-gnu/bits/types.h:
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-/home/menaosman/RIOT-master/core/include/mutex.h:
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
-/home/menaosman/RIOT-master/sys/include/architecture.h:
-/usr/include/inttypes.h:
-/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-/usr/include/limits.h:
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-/usr/include/linux/limits.h:
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-/home/menaosman/RIOT-master/cpu/native/include/architecture_arch.h:
-/home/menaosman/RIOT-master/core/lib/include/kernel_defines.h:
-/home/menaosman/RIOT-master/core/lib/include/modules.h:
-/home/menaosman/RIOT-master/core/lib/include/riot_version.h:
-/home/menaosman/RIOT-master/core/lib/include/compiler_hints.h:
-/home/menaosman/RIOT-master/core/lib/include/assert.h:
-/home/menaosman/RIOT-master/core/lib/include/container.h:
-/home/menaosman/RIOT-master/core/lib/include/list.h:
-/home/menaosman/RIOT-master/core/include/thread.h:
-/home/menaosman/RIOT-master/core/lib/include/cib.h:
-/home/menaosman/RIOT-master/core/lib/include/clist.h:
-/home/menaosman/RIOT-master/core/include/msg.h:
-/home/menaosman/RIOT-master/core/include/sched.h:
-/home/menaosman/RIOT-master/core/lib/include/thread_config.h:
-/home/menaosman/RIOT-master/cpu/native/include/cpu_conf.h:
-/home/menaosman/RIOT-master/cpu/native/include/sched.h:
-/home/menaosman/RIOT-master/core/include/thread_flags.h:
-/home/menaosman/RIOT-master/cpu/native/include/thread_arch.h:
-/home/menaosman/RIOT-master/sys/include/tsrb.h:
-/home/menaosman/RIOT-master/core/lib/include/irq.h:
-/home/menaosman/RIOT-master/sys/include/stdio_base.h:
-/usr/include/unistd.h:
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-/usr/include/linux/close_range.h:
-/home/menaosman/RIOT-master/core/lib/include/xfa.h:
-/home/menaosman/RIOT-master/core/lib/include/macros/utils.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/examples/basic/default/bin/native64/stdio/stdio.o: \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/sys/stdio/stdio.c \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/stdc-predef.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/examples/basic/default/bin/native64/riotbuild/riotbuild.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/errno.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/features.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/features-time64.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/wordsize.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/timesize.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/sys/cdefs.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/long-double.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/gnu/stubs.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/gnu/stubs-64.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/errno.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/linux/errno.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/asm/errno.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/asm-generic/errno.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/asm-generic/errno-base.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/error_t.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/sys/include/isrpipe.h \
+ /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stdint.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/stdint.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/libc-header-start.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/typesizes.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/time64.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/wchar.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdint-intn.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdint-uintn.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdint-least.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/mutex.h \
+ /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stddef.h \
+ /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stdbool.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/sys/include/architecture.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/inttypes.h \
+ /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/limits.h \
+ /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/syslimits.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/limits.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/posix1_lim.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/local_lim.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/linux/limits.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/pthread_stack_min-dynamic.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/posix2_lim.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/xopen_lim.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/uio_lim.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/cpu/native/include/architecture_arch.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/kernel_defines.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/modules.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/riot_version.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/compiler_hints.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/assert.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/container.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/list.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/thread.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/cib.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/clist.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/msg.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/sched.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/native_sched.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/stdio.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/stdio.h \
+ /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stdarg.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/__fpos_t.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/__mbstate_t.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/__fpos64_t.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/__FILE.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/FILE.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/struct_FILE.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/cookie_io_functions_t.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdio_lim.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/floatn.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/floatn-common.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdio.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/thread_config.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/cpu/native/include/cpu_conf.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/thread_flags.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/cpu/native/include/thread_arch.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/sys/include/tsrb.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/irq.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/sys/include/stdio_base.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/unistd.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/posix_opt.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/environments.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/confname.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/getopt_posix.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/getopt_core.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/unistd_ext.h \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/linux/close_range.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/xfa.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/macros/utils.h
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/stdc-predef.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/examples/basic/default/bin/native64/riotbuild/riotbuild.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/errno.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/features.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/features-time64.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/wordsize.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/timesize.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/sys/cdefs.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/long-double.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/gnu/stubs.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/gnu/stubs-64.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/errno.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/linux/errno.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/asm/errno.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/asm-generic/errno.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/asm-generic/errno-base.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/error_t.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/sys/include/isrpipe.h:
+/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stdint.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/stdint.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/libc-header-start.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/typesizes.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/time64.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/wchar.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdint-intn.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdint-uintn.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdint-least.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/mutex.h:
+/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stddef.h:
+/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stdbool.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/sys/include/architecture.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/inttypes.h:
+/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/limits.h:
+/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/syslimits.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/limits.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/posix1_lim.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/local_lim.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/linux/limits.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/pthread_stack_min-dynamic.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/posix2_lim.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/xopen_lim.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/uio_lim.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/cpu/native/include/architecture_arch.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/kernel_defines.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/modules.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/riot_version.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/compiler_hints.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/assert.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/container.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/list.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/thread.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/cib.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/clist.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/msg.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/sched.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/native_sched.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/stdio.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/stdio.h:
+/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stdarg.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/__fpos_t.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/__mbstate_t.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/__fpos64_t.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/__FILE.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/FILE.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/struct_FILE.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/types/cookie_io_functions_t.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdio_lim.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/floatn.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/floatn-common.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/stdio.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/thread_config.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/cpu/native/include/cpu_conf.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/include/thread_flags.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/cpu/native/include/thread_arch.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/sys/include/tsrb.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/irq.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/sys/include/stdio_base.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/unistd.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/posix_opt.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/environments.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/confname.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/getopt_posix.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/getopt_core.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/bits/unistd_ext.h:
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/linux/close_range.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/xfa.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/macros/utils.h:

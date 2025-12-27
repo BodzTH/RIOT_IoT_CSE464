@@ -1,13 +1,14 @@
-/home/menaosman/RIOT-master/examples/basic/default/bin/native64/core_lib/clist.o: \
- /home/menaosman/RIOT-master/core/lib/clist.c /usr/include/stdc-predef.h \
- /home/menaosman/RIOT-master/examples/basic/default/bin/native64/riotbuild/riotbuild.h \
- /home/menaosman/RIOT-master/core/lib/include/clist.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /home/menaosman/RIOT-master/core/lib/include/list.h
-/usr/include/stdc-predef.h:
-/home/menaosman/RIOT-master/examples/basic/default/bin/native64/riotbuild/riotbuild.h:
-/home/menaosman/RIOT-master/core/lib/include/clist.h:
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-/home/menaosman/RIOT-master/core/lib/include/list.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/examples/basic/default/bin/native64/core_lib/clist.o: \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/clist.c \
+ /nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/stdc-predef.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/examples/basic/default/bin/native64/riotbuild/riotbuild.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/clist.h \
+ /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stdbool.h \
+ /nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stddef.h \
+ /home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/list.h
+/nix/store/gi4cz4ir3zlwhf1azqfgxqdnczfrwsr7-glibc-2.40-66-dev/include/stdc-predef.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/examples/basic/default/bin/native64/riotbuild/riotbuild.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/clist.h:
+/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stdbool.h:
+/nix/store/kzq78n13l8w24jn8bx4djj79k5j717f1-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include/stddef.h:
+/home/bodz/University/Semester_9/IoT/Project/RIOT/core/lib/include/list.h:

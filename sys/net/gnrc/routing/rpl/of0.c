@@ -23,12 +23,18 @@
 #include "net/gnrc/rpl.h"
 #include "net/gnrc/rpl/structs.h"
 
+#define TRUE (1)
+#define FALSE (0)
+
 static uint16_t calc_rank(gnrc_rpl_dodag_t *, uint16_t);
 static int parent_cmp(gnrc_rpl_parent_t *, gnrc_rpl_parent_t *);
 static int which_dodag(gnrc_rpl_dodag_t *, gnrc_rpl_dio_t *);
 static void reset(gnrc_rpl_dodag_t *);
 
-extern volatile bool is_critical;
+// extern volatile bool is_critical;
+
+// For testing !!
+bool is_critical = TRUE;
 
 static gnrc_rpl_of_t gnrc_rpl_of0 = {
     .ocp = 0x0,
